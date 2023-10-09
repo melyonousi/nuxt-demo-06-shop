@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils-edge": "^3.0.0-rc.13-27791915.19a2cd1",
+    "@nuxtjs/tailwindcss": "^6.1.3",
+    "nuxt": "3.0.0-rc.12",
+    "nuxt-icon": "^0.1.7"
+  }
+}

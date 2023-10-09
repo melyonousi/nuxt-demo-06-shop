@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+html{
+	@apply text-[16px];
+}
+
+body{
+	@apply bg-gray-50;
+}
+
+@layer components {
+	.btn{
+		@apply bg-[#12b488] text-white px-3 py-2 rounded-md text-sm hover:opacity-80 transition-all duration-300 ease-in-out;
+	}
+}
+
+a {
+    @apply hover:text-slate-400 transition-all duration-300 ease-in-out !important;
+}
+
+.router-link-active {
+	@apply text-[#12b488];
+}
+  
+.router-link-active .router-link-exact-active {
+	@apply text-green-400;
+}
+
+.page-enter-active,
+.page-leave-active {
+  @apply transition-all duration-[0.4s];
+}
+.page-enter-from,
+.page-leave-to {
+  @apply opacity-0 blur-[1rem];
+}
